@@ -31,8 +31,8 @@
 Clona el repositorio:
 
 ```bash
-git clone https://github.com/<usuario>/security-audit.git
-cd security-audit
+git clone https://github.com/PDengra/2-Parte_security-audit.git
+cd 2-Parte_security-audit
 chmod +x audit.sh
 
 
