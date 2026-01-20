@@ -42,5 +42,26 @@ Ejecuta la auditoría con el perfil auto:
 ```bash
 
 sudo ./audit.sh --profile auto
+````
+
+Solo generar JSON para integración con SIEM:
+```bash
+sudo ./audit.sh --profile hardened --json-only
+```
+
+Listar todos los checks disponibles:
+```bash
+./audit.sh --list-checks
+```
+
+Filtrar por categorías:
+````bash
+sudo ./audit.sh --only SYSTEM,USERS --exclude SERVICES
+````
+
+Simulación sin ejecutar checks:
+````bash
+sudo ./audit.sh --dry-run
+````
 
 
